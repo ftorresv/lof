@@ -29,6 +29,29 @@ body {
   background-size: cover;
   background-position: bottom;
 }
+/*Justificar texto*/
+.text-justify{
+  text-align: justify;
+}
+#Features {
+  position: relative;
+  padding: 50px 0;
+  overflow: hidden; /* Ensures no overflow issues */
+}
+
+#Features::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  100%;
+  background: url("../img/features.png") no-repeat center center;
+  background-size: cover;
+  opacity: 0.3; /* Adjust transparency level */
+  z-index: -1;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-left {
