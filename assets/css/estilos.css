@@ -3,17 +3,21 @@ body {
 }
 /* imagen de marca personal */
 .logo-image{
-  width: 130px;
+  width: 120px;
   height: auto
+  
 }
 /* modificación de color de fondo de barra de navegación */
 .custom-navbar{
-  background-color: #737373 !important;
+  background-color: #9DD4CD !important;
+}
+.custom-text{
+  color: gray !important;
 }
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/ftv_bg-hero2.jpg");
+  background-image: url("../img/lof_hero_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
