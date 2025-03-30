@@ -22,7 +22,13 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+/*Cambio de fondo seccion acerca de Lof*/
+#Acerca-de-lof {
+  background-image: url("../img/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-left {
