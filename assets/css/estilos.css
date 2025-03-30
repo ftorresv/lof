@@ -24,10 +24,21 @@ body {
 }
 /*Cambio de fondo seccion acerca de Lof*/
 #Acerca-de-lof {
-  background-image: url("../img/about.jpg");
-  background-repeat: no-repeat;
+  position: relative;
+  padding: 50px 0;
+  overflow: hidden; 
+}
+#Acerca-de-lof::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  100%;
+  background: url("../img/acerca-de-lof.jpg") no-repeat center center;
   background-size: cover;
-  background-position: bottom;
+  opacity: 0.3; /* Adjust transparency level */
+  z-index: -1;
 }
 /*Justificar texto*/
 .text-justify{
