@@ -84,14 +84,15 @@ body {
   height: auto; 
   object-fit: contain; /*puede ser cover, ir probando*/
   margin: 0 auto; 
-  display: block; 
+  display: block;
+  opacity: 0.6; 
 }
 
 .carousel-caption{
   color:black !important;
 }
 .custom-metodologia{
-  background-color: #737373 !important;
+  background-color: #B4B4B4 !important;
 }
 /* Contacto */
 
