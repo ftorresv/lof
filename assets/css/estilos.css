@@ -37,7 +37,7 @@ body {
   height:  100%;
   background: url("../img/about.jpg") no-repeat center center;
   background-size: cover;
-  opacity: 0.3; /* Adjust transparency level */
+  opacity: 0.6; /* Adjust transparency level */
   z-index: -1;
 }
 /*Justificar texto*/
@@ -47,7 +47,9 @@ body {
 #Features {
   position: relative;
   padding: 50px 0;
-  overflow: hidden; /* Ensures no overflow issues */
+  overflow: hidden;
+  max-width: 1250px; /*testeado con inspector de codigo*/
+   
 }
 
 #Features::before {
@@ -65,7 +67,7 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-left {
+/* #Mis-trabajos .image-left {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,9 +78,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+} */
+.carousel-item img {
+  max-width: 65%; 
+  height: auto; 
+  object-fit: contain; /*puede ser cover, ir probando*/
+  margin: 0 auto; 
+  display: block; 
 }
-.custom-trabajos{
-  background-color: #FFB76B !important;
+
+.carousel-caption{
+  color:black !important;
+}
+.custom-metodologia{
+  background-color: #737373 !important;
 }
 /* Contacto */
 
